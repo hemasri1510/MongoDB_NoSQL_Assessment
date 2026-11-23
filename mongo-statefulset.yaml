@@ -1,0 +1,68 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: mongo
+spec:
+  serviceName: mongo-headless-svc
+  replicas: 3
+  selector:
+    matchLabels:
+      app: mongo
+  template:
+    metadata:
+      labels:
+        app: mongo
+    spec:
+      terminationGracePeriodSeconds: 30
+      initContainers:
+        - name: keyfile-generator
+          image: busybox:1.36
+          command:
+            - sh
+            - -c
+            - |
+              if [ ! -f /etc/mongodb-keyfile/keyfile ]; then
+                head -c 756 /dev/urandom | base64 > /etc/mongodb-keyfile/keyfile
+                chmod 400 /etc/mongodb-keyfile/keyfile
+                chown 999:999 /etc/mongodb-keyfile/keyfile
+              fi
+          volumeMounts:
+            - name: keyfile-dir
+              mountPath: /etc/mongodb-keyfile
+      containers:
+        - name: mongod
+          image: mongo:8.0
+          command:
+            - mongod
+            - "--replSet"
+            - "rs0"
+            - "--keyFile"
+            - "/etc/mongodb/keyfile"
+            - "--bind_ip"
+            - "0.0.0.0"
+          ports:
+            - containerPort: 27017
+              name: mongodb
+          readinessProbe:
+            tcpSocket:
+              port: 27017
+            initialDelaySeconds: 5
+            periodSeconds: 5
+            timeoutSeconds: 3
+          volumeMounts:
+            - name: mongo-data
+              mountPath: /data/db
+            - name: keyfile-dir
+              mountPath: /etc/mongodb
+              readOnly: true
+      volumes:
+        - name: keyfile-dir
+          emptyDir: {}
+  volumeClaimTemplates:
+    - metadata:
+        name: mongo-data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 5Gi

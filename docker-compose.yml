@@ -1,0 +1,54 @@
+version: "3.8"
+
+services:
+  mongo1:
+    image: mongo:8.0
+    container_name: mongo1
+    command: ["--replSet", "rs0", "--bind_ip_all", "--port", "27017"]
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo1_data:/data/db
+    networks:
+      - mongo_rs_net
+
+  mongo2:
+    image: mongo:8.0
+    container_name: mongo2
+    command: ["--replSet", "rs0", "--bind_ip_all", "--port", "27018"]
+    ports:
+      - "27018:27018"
+    volumes:
+      - mongo2_data:/data/db
+    networks:
+      - mongo_rs_net
+
+  mongo3:
+    image: mongo:8.0
+    container_name: mongo3
+    command: ["--replSet", "rs0", "--bind_ip_all", "--port", "27019"]
+    ports:
+      - "27019:27019"
+    volumes:
+      - mongo3_data:/data/db
+    networks:
+      - mongo_rs_net
+
+  # Activity 8.1: Arbiter node (voting member with no data storage)
+  mongo-arbiter:
+    image: mongo:8.0
+    container_name: mongo-arbiter
+    command: ["--replSet", "rs0", "--bind_ip_all", "--port", "27020"]
+    ports:
+      - "27020:27020"
+    networks:
+      - mongo_rs_net
+
+volumes:
+  mongo1_data:
+  mongo2_data:
+  mongo3_data:
+
+networks:
+  mongo_rs_net:
+    driver: bridge

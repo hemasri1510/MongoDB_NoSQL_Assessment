@@ -1,0 +1,62 @@
+version: "3.8"
+
+services:
+  # Config Server Replica Set (configReplSet)
+  configsvr:
+    image: mongo:8.0
+    container_name: configsvr
+    command: ["--configsvr", "--replSet", "configReplSet", "--bind_ip_all", "--port", "27019"]
+    ports:
+      - "27119:27019"
+    volumes:
+      - configsvr_data:/data/db
+    networks:
+      - mongo_shard_net
+
+  # Shard A Replica Set (shardAReplSet)
+  shardA:
+    image: mongo:8.0
+    container_name: shardA
+    command: ["--shardsvr", "--replSet", "shardAReplSet", "--bind_ip_all", "--port", "27018"]
+    ports:
+      - "27118:27018"
+    volumes:
+      - shardA_data:/data/db
+    networks:
+      - mongo_shard_net
+
+  # Shard B Replica Set (shardBReplSet)
+  shardB:
+    image: mongo:8.0
+    container_name: shardB
+    command: ["--shardsvr", "--replSet", "shardBReplSet", "--bind_ip_all", "--port", "27020"]
+    ports:
+      - "27120:27020"
+    volumes:
+      - shardB_data:/data/db
+    networks:
+      - mongo_shard_net
+
+  # Mongos Query Router
+  mongos:
+    image: mongo:8.0
+    container_name: mongos
+    entrypoint: ["mongos"]
+    command: ["--configdb", "configReplSet/configsvr:27019", "--bind_ip_all", "--port", "27017"]
+    ports:
+      - "27117:27017"
+    depends_on:
+      - configsvr
+      - shardA
+      - shardB
+    networks:
+      - mongo_shard_net
+
+volumes:
+  configsvr_data:
+  shardA_data:
+  shardB_data:
+
+networks:
+  mongo_shard_net:
+    driver: bridge

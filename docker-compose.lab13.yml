@@ -1,0 +1,64 @@
+version: "3.8"
+
+services:
+  mongo1:
+    image: mongo:8.0
+    container_name: prod-mongo1
+    command: ["--replSet", "rs0", "--keyFile", "/etc/mongodb/keyfile", "--bind_ip_all", "--port", "27017"]
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: ProdAdminPassword@2026
+    volumes:
+      - prod_mongo1_data:/data/db
+      - ./keyfile:/etc/mongodb/keyfile:ro
+    networks:
+      - mongo_prod_net
+
+  mongo2:
+    image: mongo:8.0
+    container_name: prod-mongo2
+    command: ["--replSet", "rs0", "--keyFile", "/etc/mongodb/keyfile", "--bind_ip_all", "--port", "27017"]
+    ports:
+      - "27018:27017"
+    volumes:
+      - prod_mongo2_data:/data/db
+      - ./keyfile:/etc/mongodb/keyfile:ro
+    networks:
+      - mongo_prod_net
+
+  mongo3:
+    image: mongo:8.0
+    container_name: prod-mongo3
+    command: ["--replSet", "rs0", "--keyFile", "/etc/mongodb/keyfile", "--bind_ip_all", "--port", "27017"]
+    ports:
+      - "27019:27017"
+    volumes:
+      - prod_mongo3_data:/data/db
+      - ./keyfile:/etc/mongodb/keyfile:ro
+    networks:
+      - mongo_prod_net
+
+  # Activity 13.1: Prometheus MongoDB Exporter Sidecar for mongo1 metrics
+  mongodb-exporter:
+    image: percona/mongodb_exporter:0.40
+    container_name: prod-mongodb-exporter
+    command:
+      - "--mongodb.uri=mongodb://admin:ProdAdminPassword@2026@mongo1:27017/admin?authSource=admin"
+      - "--collect-all"
+    ports:
+      - "9216:9216"
+    depends_on:
+      - mongo1
+    networks:
+      - mongo_prod_net
+
+volumes:
+  prod_mongo1_data:
+  prod_mongo2_data:
+  prod_mongo3_data:
+
+networks:
+  mongo_prod_net:
+    driver: bridge
