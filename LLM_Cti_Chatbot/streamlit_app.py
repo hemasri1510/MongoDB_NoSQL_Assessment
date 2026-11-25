@@ -3,6 +3,7 @@ Final Assessment (A.5): Streamlit Chat Frontend for ThreatGuard AI
 Intelligent multi-model automatic failover across verified FREE Google Gemini models.
 """
 
+import html
 import os
 import requests
 import streamlit as st
@@ -66,8 +67,41 @@ hr { border-color: #e3ddef; }
   font-weight: 600;
   margin-top: 4px;
 }
+.sw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; margin-top: 8px; }
+.sw-card { background: #fff; border: 1px solid #e3ddef; border-radius: 14px; padding: 12px 14px; box-shadow: 0 4px 14px rgba(55,43,91,.05); }
+.sw-name { font-weight: 700; color: #3b2f7a; font-size: .95rem; word-break: break-word; }
+.sw-row { font-size: .8rem; color: #5d5675; margin-top: 3px; word-break: break-word; }
+.sw-badge { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: .72rem; font-weight: 700; margin: 5px 0 2px; }
+.sw-installed { background: #dcfce7; color: #166534; }
+.sw-notinstalled { background: #fee2e2; color: #991b1b; }
+.sw-unverified { background: #fef3c7; color: #92400e; }
 </style>
 """, unsafe_allow_html=True)
+
+
+def render_software_cards(result):
+    """Render software-detection results as cards. All registry-derived text is HTML-escaped."""
+    cards = (result or {}).get("cards") or []
+    if not cards:
+        return
+    badge_cls = {"Installed": "sw-installed", "Not Installed": "sw-notinstalled"}
+    parts = []
+    for c in cards:
+        e = lambda v: html.escape(str(v)) if v else "&mdash;"
+        status = c.get("status", "Unable to verify")
+        extra = f"<div class='sw-row'>Category: {e(c.get('category'))}</div>" if c.get("category") else ""
+        parts.append(
+            "<div class='sw-card'>"
+            f"<div class='sw-name'>{e(c.get('name'))}</div>"
+            f"<span class='sw-badge {badge_cls.get(status, 'sw-unverified')}'>{html.escape(status)}</span>"
+            f"{extra}"
+            f"<div class='sw-row'><b>Version:</b> {e(c.get('version'))}</div>"
+            f"<div class='sw-row'><b>Publisher:</b> {e(c.get('publisher'))}</div>"
+            f"<div class='sw-row'><b>Scan status:</b> {e(c.get('scan_status'))}</div>"
+            "</div>"
+        )
+    st.markdown("<div class='sw-grid'>" + "".join(parts) + "</div>", unsafe_allow_html=True)
+
 
 st.title("🛡️ ThreatGuard AI: CTI Threat Intelligence & Remediation")
 st.caption("Multi-Model Automatic Failover (FREE Google Gemini API) • MongoDB Vector RAG • Autonomous Scanner")
@@ -110,6 +144,23 @@ with st.sidebar:
         except Exception as exc:
             st.error(f"Scan failed: {exc}")
 
+    st.divider()
+    st.subheader("Windows Software Scanner")
+    try:
+        sh = requests.get(f"{BACKEND_URL}/installed-software/health", timeout=20).json()
+        if sh.get("status") == "ok":
+            st.success(f"Scanner ready ({sh.get('scanner_mode')})")
+        else:
+            st.warning(sh.get("detail", "Scanner unavailable"))
+    except Exception:
+        st.info("Software scanner status unavailable")
+    if st.button("Refresh software inventory", use_container_width=True):
+        try:
+            inv = requests.get(f"{BACKEND_URL}/installed-software", params={"refresh": "true"}, timeout=60).json()
+            st.info(f"Scan {inv.get('scan_status')}: {inv.get('total', 0)} applications")
+        except Exception as exc:
+            st.error(f"Refresh failed: {exc}")
+
 if "messages" not in st.session_state:
     st.session_state.messages = [
         {
@@ -127,6 +178,7 @@ if "messages" not in st.session_state:
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
+        render_software_cards(msg.get("software_result"))
         if "model_used" in msg:
             st.markdown(f"<span class='model-pill'>🤖 Served by: {msg['model_used']}{' (fallback)' if msg.get('fallback_used') else ''}</span>", unsafe_allow_html=True)
 
@@ -138,6 +190,7 @@ if prompt := st.chat_input("Ask about platform threats, CVEs, IoCs, or type 'CON
     with st.chat_message("assistant"):
         model_used = None
         fallback_used = False
+        software_result = None
         try:
             resp = requests.post(
                 f"{BACKEND_URL}/chat",
@@ -154,6 +207,7 @@ if prompt := st.chat_input("Ask about platform threats, CVEs, IoCs, or type 'CON
                 answer = resp_data.get("answer") or "⚠️ The backend returned an empty response."
                 model_used = resp_data.get("model")
                 fallback_used = resp_data.get("fallback_used", False)
+                software_result = resp_data.get("software_result")
             else:
                 try:
                     detail = resp.json().get("detail", "")
@@ -164,10 +218,13 @@ if prompt := st.chat_input("Ask about platform threats, CVEs, IoCs, or type 'CON
             answer = f"Backend unreachable ({exc}). Ensure FastAPI is running on `{BACKEND_URL}`."
 
         st.markdown(answer)
+        render_software_cards(software_result)
         if model_used:
             st.markdown(f"<span class='model-pill'>🤖 Served by: {model_used}{' (fallback)' if fallback_used else ''}</span>", unsafe_allow_html=True)
 
         bot_msg = {"role": "assistant", "content": answer}
+        if software_result:
+            bot_msg["software_result"] = software_result
         if model_used:
             bot_msg["model_used"] = model_used
             bot_msg["fallback_used"] = fallback_used

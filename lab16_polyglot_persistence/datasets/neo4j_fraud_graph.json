@@ -1,0 +1,214 @@
+{
+  "device_links": [
+    {
+      "account_id": "ACC1001",
+      "device_id": "DEV-1001"
+    },
+    {
+      "account_id": "ACC1002",
+      "device_id": "DEV-1002"
+    },
+    {
+      "account_id": "ACC1003",
+      "device_id": "DEV-1003"
+    },
+    {
+      "account_id": "ACC1004",
+      "device_id": "DEV-1004"
+    },
+    {
+      "account_id": "ACC1005",
+      "device_id": "DEV-1005"
+    },
+    {
+      "account_id": "ACC1006",
+      "device_id": "DEV-1006"
+    },
+    {
+      "account_id": "ACC1007",
+      "device_id": "DEV-1007"
+    },
+    {
+      "account_id": "ACC1008",
+      "device_id": "DEV-1008"
+    },
+    {
+      "account_id": "ACC1009",
+      "device_id": "DEV-1009"
+    },
+    {
+      "account_id": "ACC1010",
+      "device_id": "DEV-1010"
+    },
+    {
+      "account_id": "ACC1011",
+      "device_id": "DEV-1011"
+    },
+    {
+      "account_id": "ACC1012",
+      "device_id": "DEV-1012"
+    },
+    {
+      "account_id": "ACC1013",
+      "device_id": "DEV-1013"
+    },
+    {
+      "account_id": "ACC1014",
+      "device_id": "DEV-1014"
+    },
+    {
+      "account_id": "ACC1015",
+      "device_id": "DEV-1015"
+    },
+    {
+      "account_id": "ACC1016",
+      "device_id": "DEV-1016"
+    },
+    {
+      "account_id": "ACC1017",
+      "device_id": "DEV-1017"
+    },
+    {
+      "account_id": "ACC1018",
+      "device_id": "DEV-1018"
+    },
+    {
+      "account_id": "ACC1019",
+      "device_id": "DEV-1019"
+    },
+    {
+      "account_id": "ACC1020",
+      "device_id": "DEV-1020"
+    },
+    {
+      "account_id": "ACC1021",
+      "device_id": "DEV-1021"
+    },
+    {
+      "account_id": "ACC1022",
+      "device_id": "DEV-1022"
+    },
+    {
+      "account_id": "ACC1023",
+      "device_id": "DEV-1023"
+    },
+    {
+      "account_id": "ACC1024",
+      "device_id": "DEV-1024"
+    },
+    {
+      "account_id": "ACC1025",
+      "device_id": "DEV-1025"
+    },
+    {
+      "account_id": "ACC1026",
+      "device_id": "DEV-1026"
+    },
+    {
+      "account_id": "ACC1027",
+      "device_id": "DEV-1027"
+    },
+    {
+      "account_id": "ACC1028",
+      "device_id": "DEV-1028"
+    },
+    {
+      "account_id": "ACC1029",
+      "device_id": "DEV-1029"
+    },
+    {
+      "account_id": "ACC1030",
+      "device_id": "DEV-1030"
+    },
+    {
+      "account_id": "ACC1031",
+      "device_id": "DEV-RING-A"
+    },
+    {
+      "account_id": "ACC1032",
+      "device_id": "DEV-RING-A"
+    },
+    {
+      "account_id": "ACC1033",
+      "device_id": "DEV-RING-A"
+    },
+    {
+      "account_id": "ACC1034",
+      "device_id": "DEV-RING-A"
+    },
+    {
+      "account_id": "ACC1035",
+      "device_id": "DEV-RING-A"
+    },
+    {
+      "account_id": "ACC1036",
+      "device_id": "DEV-RING-B"
+    },
+    {
+      "account_id": "ACC1037",
+      "device_id": "DEV-RING-B"
+    },
+    {
+      "account_id": "ACC1038",
+      "device_id": "DEV-RING-B"
+    },
+    {
+      "account_id": "ACC1039",
+      "device_id": "DEV-RING-B"
+    },
+    {
+      "account_id": "ACC1040",
+      "device_id": "DEV-RING-B"
+    }
+  ],
+  "p2p_transfers": [
+    {
+      "from_account": "ACC1031",
+      "to_account": "ACC1032",
+      "total_transferred_inr": 76268.37,
+      "hop_count": 1
+    },
+    {
+      "from_account": "ACC1032",
+      "to_account": "ACC1033",
+      "total_transferred_inr": 124734.19,
+      "hop_count": 1
+    },
+    {
+      "from_account": "ACC1033",
+      "to_account": "ACC1034",
+      "total_transferred_inr": 109853.61,
+      "hop_count": 1
+    },
+    {
+      "from_account": "ACC1034",
+      "to_account": "ACC1035",
+      "total_transferred_inr": 97643.74,
+      "hop_count": 1
+    },
+    {
+      "from_account": "ACC1036",
+      "to_account": "ACC1037",
+      "total_transferred_inr": 117160.72,
+      "hop_count": 1
+    },
+    {
+      "from_account": "ACC1037",
+      "to_account": "ACC1038",
+      "total_transferred_inr": 129140.19,
+      "hop_count": 1
+    },
+    {
+      "from_account": "ACC1038",
+      "to_account": "ACC1039",
+      "total_transferred_inr": 76275.43,
+      "hop_count": 1
+    },
+    {
+      "from_account": "ACC1039",
+      "to_account": "ACC1040",
+      "total_transferred_inr": 198257.33,
+      "hop_count": 1
+    }
+  ]
+}

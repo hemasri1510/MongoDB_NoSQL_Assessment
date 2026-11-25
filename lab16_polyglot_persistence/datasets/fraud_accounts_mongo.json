@@ -1,0 +1,482 @@
+[
+  {
+    "_id": "ACC1001",
+    "holder_name": "Diya Reddy",
+    "city": "Mumbai",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 1014,
+    "registered_devices": [
+      "DEV-1001"
+    ]
+  },
+  {
+    "_id": "ACC1002",
+    "holder_name": "Rohan Patel",
+    "city": "Hyderabad",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 1156,
+    "registered_devices": [
+      "DEV-1002"
+    ]
+  },
+  {
+    "_id": "ACC1003",
+    "holder_name": "Ananya Rao",
+    "city": "Chennai",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 1710,
+    "registered_devices": [
+      "DEV-1003"
+    ]
+  },
+  {
+    "_id": "ACC1004",
+    "holder_name": "Karthik Kulkarni",
+    "city": "Delhi",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 986,
+    "registered_devices": [
+      "DEV-1004"
+    ]
+  },
+  {
+    "_id": "ACC1005",
+    "holder_name": "Meera Nair",
+    "city": "Pune",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "MEDIUM",
+    "account_age_days": 347,
+    "registered_devices": [
+      "DEV-1005"
+    ]
+  },
+  {
+    "_id": "ACC1006",
+    "holder_name": "Vikram Reddy",
+    "city": "Bengaluru",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 668,
+    "registered_devices": [
+      "DEV-1006"
+    ]
+  },
+  {
+    "_id": "ACC1007",
+    "holder_name": "Sneha Patel",
+    "city": "Mumbai",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 1420,
+    "registered_devices": [
+      "DEV-1007"
+    ]
+  },
+  {
+    "_id": "ACC1008",
+    "holder_name": "Siddharth Rao",
+    "city": "Hyderabad",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 388,
+    "registered_devices": [
+      "DEV-1008"
+    ]
+  },
+  {
+    "_id": "ACC1009",
+    "holder_name": "Pooja Kulkarni",
+    "city": "Chennai",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 878,
+    "registered_devices": [
+      "DEV-1009"
+    ]
+  },
+  {
+    "_id": "ACC1010",
+    "holder_name": "Nikhil Nair",
+    "city": "Delhi",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "MEDIUM",
+    "account_age_days": 1121,
+    "registered_devices": [
+      "DEV-1010"
+    ]
+  },
+  {
+    "_id": "ACC1011",
+    "holder_name": "Kavya Reddy",
+    "city": "Pune",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 1132,
+    "registered_devices": [
+      "DEV-1011"
+    ]
+  },
+  {
+    "_id": "ACC1012",
+    "holder_name": "Aditya Patel",
+    "city": "Bengaluru",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 1192,
+    "registered_devices": [
+      "DEV-1012"
+    ]
+  },
+  {
+    "_id": "ACC1013",
+    "holder_name": "Shreya Rao",
+    "city": "Mumbai",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 355,
+    "registered_devices": [
+      "DEV-1013"
+    ]
+  },
+  {
+    "_id": "ACC1014",
+    "holder_name": "Pranav Kulkarni",
+    "city": "Hyderabad",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 215,
+    "registered_devices": [
+      "DEV-1014"
+    ]
+  },
+  {
+    "_id": "ACC1015",
+    "holder_name": "Nandini Nair",
+    "city": "Chennai",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "MEDIUM",
+    "account_age_days": 935,
+    "registered_devices": [
+      "DEV-1015"
+    ]
+  },
+  {
+    "_id": "ACC1016",
+    "holder_name": "Arjun Reddy",
+    "city": "Delhi",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 1701,
+    "registered_devices": [
+      "DEV-1016"
+    ]
+  },
+  {
+    "_id": "ACC1017",
+    "holder_name": "Ritika Patel",
+    "city": "Pune",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 439,
+    "registered_devices": [
+      "DEV-1017"
+    ]
+  },
+  {
+    "_id": "ACC1018",
+    "holder_name": "Harish Rao",
+    "city": "Bengaluru",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 1141,
+    "registered_devices": [
+      "DEV-1018"
+    ]
+  },
+  {
+    "_id": "ACC1019",
+    "holder_name": "Tanvi Kulkarni",
+    "city": "Mumbai",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 802,
+    "registered_devices": [
+      "DEV-1019"
+    ]
+  },
+  {
+    "_id": "ACC1020",
+    "holder_name": "Aarav Nair",
+    "city": "Hyderabad",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "MEDIUM",
+    "account_age_days": 1799,
+    "registered_devices": [
+      "DEV-1020"
+    ]
+  },
+  {
+    "_id": "ACC1021",
+    "holder_name": "Diya Reddy",
+    "city": "Chennai",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 346,
+    "registered_devices": [
+      "DEV-1021"
+    ]
+  },
+  {
+    "_id": "ACC1022",
+    "holder_name": "Rohan Patel",
+    "city": "Delhi",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 246,
+    "registered_devices": [
+      "DEV-1022"
+    ]
+  },
+  {
+    "_id": "ACC1023",
+    "holder_name": "Ananya Rao",
+    "city": "Pune",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 1387,
+    "registered_devices": [
+      "DEV-1023"
+    ]
+  },
+  {
+    "_id": "ACC1024",
+    "holder_name": "Karthik Kulkarni",
+    "city": "Bengaluru",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 1398,
+    "registered_devices": [
+      "DEV-1024"
+    ]
+  },
+  {
+    "_id": "ACC1025",
+    "holder_name": "Meera Nair",
+    "city": "Mumbai",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "MEDIUM",
+    "account_age_days": 367,
+    "registered_devices": [
+      "DEV-1025"
+    ]
+  },
+  {
+    "_id": "ACC1026",
+    "holder_name": "Vikram Reddy",
+    "city": "Hyderabad",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 1242,
+    "registered_devices": [
+      "DEV-1026"
+    ]
+  },
+  {
+    "_id": "ACC1027",
+    "holder_name": "Sneha Patel",
+    "city": "Chennai",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 770,
+    "registered_devices": [
+      "DEV-1027"
+    ]
+  },
+  {
+    "_id": "ACC1028",
+    "holder_name": "Siddharth Rao",
+    "city": "Delhi",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 291,
+    "registered_devices": [
+      "DEV-1028"
+    ]
+  },
+  {
+    "_id": "ACC1029",
+    "holder_name": "Pooja Kulkarni",
+    "city": "Pune",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "LOW",
+    "account_age_days": 1077,
+    "registered_devices": [
+      "DEV-1029"
+    ]
+  },
+  {
+    "_id": "ACC1030",
+    "holder_name": "Nikhil Nair",
+    "city": "Bengaluru",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "MEDIUM",
+    "account_age_days": 495,
+    "registered_devices": [
+      "DEV-1030"
+    ]
+  },
+  {
+    "_id": "ACC1031",
+    "holder_name": "Kavya Reddy",
+    "city": "Mumbai",
+    "kyc_verified": true,
+    "flagged": true,
+    "risk_tier": "HIGH",
+    "account_age_days": 11,
+    "registered_devices": [
+      "DEV-RING-A"
+    ]
+  },
+  {
+    "_id": "ACC1032",
+    "holder_name": "Aditya Patel",
+    "city": "Hyderabad",
+    "kyc_verified": false,
+    "flagged": false,
+    "risk_tier": "HIGH",
+    "account_age_days": 34,
+    "registered_devices": [
+      "DEV-RING-A"
+    ]
+  },
+  {
+    "_id": "ACC1033",
+    "holder_name": "Shreya Rao",
+    "city": "Chennai",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "HIGH",
+    "account_age_days": 8,
+    "registered_devices": [
+      "DEV-RING-A"
+    ]
+  },
+  {
+    "_id": "ACC1034",
+    "holder_name": "Pranav Kulkarni",
+    "city": "Delhi",
+    "kyc_verified": true,
+    "flagged": true,
+    "risk_tier": "HIGH",
+    "account_age_days": 18,
+    "registered_devices": [
+      "DEV-RING-A"
+    ]
+  },
+  {
+    "_id": "ACC1035",
+    "holder_name": "Nandini Nair",
+    "city": "Pune",
+    "kyc_verified": false,
+    "flagged": false,
+    "risk_tier": "HIGH",
+    "account_age_days": 24,
+    "registered_devices": [
+      "DEV-RING-A"
+    ]
+  },
+  {
+    "_id": "ACC1036",
+    "holder_name": "Arjun Reddy",
+    "city": "Bengaluru",
+    "kyc_verified": true,
+    "flagged": false,
+    "risk_tier": "HIGH",
+    "account_age_days": 11,
+    "registered_devices": [
+      "DEV-RING-B"
+    ]
+  },
+  {
+    "_id": "ACC1037",
+    "holder_name": "Ritika Patel",
+    "city": "Mumbai",
+    "kyc_verified": true,
+    "flagged": true,
+    "risk_tier": "HIGH",
+    "account_age_days": 6,
+    "registered_devices": [
+      "DEV-RING-B"
+    ]
+  },
+  {
+    "_id": "ACC1038",
+    "holder_name": "Harish Rao",
+    "city": "Hyderabad",
+    "kyc_verified": false,
+    "flagged": false,
+    "risk_tier": "HIGH",
+    "account_age_days": 45,
+    "registered_devices": [
+      "DEV-RING-B"
+    ]
+  },
+  {
+    "_id": "ACC1039",
+    "holder_name": "Tanvi Kulkarni",
+    "city": "Chennai",
+    "kyc_verified": false,
+    "flagged": false,
+    "risk_tier": "HIGH",
+    "account_age_days": 26,
+    "registered_devices": [
+      "DEV-RING-B"
+    ]
+  },
+  {
+    "_id": "ACC1040",
+    "holder_name": "Aarav Nair",
+    "city": "Delhi",
+    "kyc_verified": true,
+    "flagged": true,
+    "risk_tier": "HIGH",
+    "account_age_days": 22,
+    "registered_devices": [
+      "DEV-RING-B"
+    ]
+  }
+]

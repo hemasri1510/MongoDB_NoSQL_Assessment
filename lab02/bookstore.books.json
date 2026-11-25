@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "6a95afbf3f5566ef98ea69c2"
+  },
+  "title": "Python Programming",
+  "author": "John Smith",
+  "published_year": 2005,
+  "price": 550
+},
+{
+  "_id": {
+    "$oid": "6a95afbf3f5566ef98ea69c3"
+  },
+  "title": "Database Systems",
+  "author": "Robert Brown",
+  "published_year": 2008,
+  "price": 880.0000000000001
+},
+{
+  "_id": {
+    "$oid": "6a95afbf3f5566ef98ea69c4"
+  },
+  "title": "MongoDB Basics",
+  "author": "David Wilson",
+  "published_year": 2009,
+  "price": 660
+},
+{
+  "_id": {
+    "$oid": "6a95afbf3f5566ef98ea69c5"
+  },
+  "title": "Modern Web Development",
+  "author": "James Anderson",
+  "published_year": 2015,
+  "price": 700
+},
+{
+  "_id": {
+    "$oid": "6a95afbf3f5566ef98ea69c6"
+  },
+  "title": "Artificial Intelligence",
+  "author": "Michael Lee",
+  "published_year": 2020,
+  "price": 900
+}]

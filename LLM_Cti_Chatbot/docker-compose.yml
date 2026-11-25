@@ -1,0 +1,57 @@
+version: "3.8"
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: cti-chat-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - cti_chat_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cti-chat-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - MONGO_URI=mongodb://mongo:27017
+      - MONGO_DB=threat_intel_chatbot
+      - LLM_PROVIDER=google_gemini
+      - GEMINI_MODEL=gemini-3.1-flash-lite
+      # Windows software scanner runs on the Windows HOST (python windows_agent.py); a container cannot read its registry.
+      - SOFTWARE_SCANNER_MODE=agent
+      - SOFTWARE_AGENT_URL=http://host.docker.internal:8765
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      mongo:
+        condition: service_healthy
+
+  frontend:
+    image: python:3.12-slim
+    container_name: cti-chat-frontend
+    working_dir: /app
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - BACKEND_URL=http://backend:8000
+    command: >
+      sh -c "pip install --no-cache-dir streamlit requests &&
+             streamlit run streamlit_app.py --server.port 8501 --server.address 0.0.0.0"
+    depends_on:
+      - backend
+
+volumes:
+  cti_chat_data:

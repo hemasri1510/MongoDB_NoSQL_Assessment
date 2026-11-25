@@ -1,0 +1,2172 @@
+[
+  {
+    "_id": "STU2026001",
+    "full_name": "Aarav Iyer",
+    "email": "aarav.iyer1@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 7,
+    "cgpa": 7.28,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026002",
+    "full_name": "Diya Rao",
+    "email": "diya.rao2@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 3,
+    "cgpa": 9.06,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI210",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS201",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026003",
+    "full_name": "Rohan Joshi",
+    "email": "rohan.joshi3@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 7,
+    "cgpa": 7.76,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026004",
+    "full_name": "Ananya Reddy",
+    "email": "ananya.reddy4@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 5,
+    "cgpa": 9.3,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "O",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026005",
+    "full_name": "Karthik Menon",
+    "email": "karthik.menon5@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 7,
+    "cgpa": 7.79,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026006",
+    "full_name": "Meera Kulkarni",
+    "email": "meera.kulkarni6@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 5,
+    "cgpa": 7.62,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026007",
+    "full_name": "Vikram Sharma",
+    "email": "vikram.sharma7@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 5,
+    "cgpa": 7.9,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026008",
+    "full_name": "Sneha Patel",
+    "email": "sneha.patel8@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 7,
+    "cgpa": 9.57,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026009",
+    "full_name": "Siddharth Verma",
+    "email": "siddharth.verma9@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 7,
+    "cgpa": 8.66,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026010",
+    "full_name": "Pooja Nair",
+    "email": "pooja.nair10@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 5,
+    "cgpa": 9.44,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026011",
+    "full_name": "Nikhil Iyer",
+    "email": "nikhil.iyer11@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 3,
+    "cgpa": 8.75,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI210",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS201",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026012",
+    "full_name": "Kavya Rao",
+    "email": "kavya.rao12@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 5,
+    "cgpa": 7.61,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026013",
+    "full_name": "Aditya Joshi",
+    "email": "aditya.joshi13@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 3,
+    "cgpa": 9.39,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI210",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS201",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026014",
+    "full_name": "Shreya Reddy",
+    "email": "shreya.reddy14@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 7,
+    "cgpa": 9.48,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026015",
+    "full_name": "Pranav Menon",
+    "email": "pranav.menon15@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 5,
+    "cgpa": 9.19,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "O",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026016",
+    "full_name": "Nandini Kulkarni",
+    "email": "nandini.kulkarni16@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 3,
+    "cgpa": 9.16,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "AI210",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026017",
+    "full_name": "Arjun Sharma",
+    "email": "arjun.sharma17@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 7,
+    "cgpa": 8.08,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026018",
+    "full_name": "Ritika Patel",
+    "email": "ritika.patel18@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 7,
+    "cgpa": 8.54,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026019",
+    "full_name": "Harish Verma",
+    "email": "harish.verma19@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 5,
+    "cgpa": 7.45,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026020",
+    "full_name": "Tanvi Nair",
+    "email": "tanvi.nair20@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 7,
+    "cgpa": 8.08,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "O",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026021",
+    "full_name": "Aarav Iyer",
+    "email": "aarav.iyer21@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 3,
+    "cgpa": 7.68,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS201",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026022",
+    "full_name": "Diya Rao",
+    "email": "diya.rao22@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 5,
+    "cgpa": 7.63,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "O",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026023",
+    "full_name": "Rohan Joshi",
+    "email": "rohan.joshi23@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 5,
+    "cgpa": 7.89,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "O",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026024",
+    "full_name": "Ananya Reddy",
+    "email": "ananya.reddy24@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 5,
+    "cgpa": 8.71,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026025",
+    "full_name": "Karthik Menon",
+    "email": "karthik.menon25@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 7,
+    "cgpa": 8.75,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026026",
+    "full_name": "Meera Kulkarni",
+    "email": "meera.kulkarni26@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 7,
+    "cgpa": 8.94,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "O",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026027",
+    "full_name": "Vikram Sharma",
+    "email": "vikram.sharma27@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 5,
+    "cgpa": 7.22,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026028",
+    "full_name": "Sneha Patel",
+    "email": "sneha.patel28@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 7,
+    "cgpa": 7.61,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026029",
+    "full_name": "Siddharth Verma",
+    "email": "siddharth.verma29@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 7,
+    "cgpa": 7.6,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026030",
+    "full_name": "Pooja Nair",
+    "email": "pooja.nair30@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 5,
+    "cgpa": 8.85,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026031",
+    "full_name": "Nikhil Iyer",
+    "email": "nikhil.iyer31@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 5,
+    "cgpa": 8.63,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026032",
+    "full_name": "Kavya Rao",
+    "email": "kavya.rao32@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 5,
+    "cgpa": 7.59,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026033",
+    "full_name": "Aditya Joshi",
+    "email": "aditya.joshi33@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 3,
+    "cgpa": 8.97,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS201",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026034",
+    "full_name": "Shreya Reddy",
+    "email": "shreya.reddy34@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 7,
+    "cgpa": 9.12,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026035",
+    "full_name": "Pranav Menon",
+    "email": "pranav.menon35@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 5,
+    "cgpa": 7.78,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026036",
+    "full_name": "Nandini Kulkarni",
+    "email": "nandini.kulkarni36@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 5,
+    "cgpa": 7.92,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026037",
+    "full_name": "Arjun Sharma",
+    "email": "arjun.sharma37@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 3,
+    "cgpa": 8.06,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI210",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026038",
+    "full_name": "Ritika Patel",
+    "email": "ritika.patel38@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 3,
+    "cgpa": 8.75,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS201",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026039",
+    "full_name": "Harish Verma",
+    "email": "harish.verma39@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 5,
+    "cgpa": 8.33,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026040",
+    "full_name": "Tanvi Nair",
+    "email": "tanvi.nair40@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 7,
+    "cgpa": 8.93,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026041",
+    "full_name": "Aarav Iyer",
+    "email": "aarav.iyer41@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 5,
+    "cgpa": 9.55,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026042",
+    "full_name": "Diya Rao",
+    "email": "diya.rao42@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 7,
+    "cgpa": 8.35,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026043",
+    "full_name": "Rohan Joshi",
+    "email": "rohan.joshi43@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 3,
+    "cgpa": 8.93,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI210",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS201",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026044",
+    "full_name": "Ananya Reddy",
+    "email": "ananya.reddy44@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 7,
+    "cgpa": 9.76,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026045",
+    "full_name": "Karthik Menon",
+    "email": "karthik.menon45@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 7,
+    "cgpa": 8.99,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026046",
+    "full_name": "Meera Kulkarni",
+    "email": "meera.kulkarni46@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 3,
+    "cgpa": 7.85,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS201",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026047",
+    "full_name": "Vikram Sharma",
+    "email": "vikram.sharma47@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 3,
+    "cgpa": 9.32,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "AI210",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026048",
+    "full_name": "Sneha Patel",
+    "email": "sneha.patel48@university.edu.in",
+    "program": "B.Tech CSE (AI & ML)",
+    "semester": 7,
+    "cgpa": 8.83,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS204",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS301",
+        "grade": "A",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI315",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS402",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026049",
+    "full_name": "Siddharth Verma",
+    "email": "siddharth.verma49@university.edu.in",
+    "program": "B.Tech CSE",
+    "semester": 5,
+    "cgpa": 7.41,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "O",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "CS201",
+        "grade": "A",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "AI210",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "CS204",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS301",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "_id": "STU2026050",
+    "full_name": "Pooja Nair",
+    "email": "pooja.nair50@university.edu.in",
+    "program": "B.Tech Data Science",
+    "semester": 3,
+    "cgpa": 7.37,
+    "completed_courses": [
+      {
+        "course_code": "CS101",
+        "grade": "A+",
+        "term": "2026-SPRING"
+      },
+      {
+        "course_code": "MA102",
+        "grade": "B+",
+        "term": "2026-SPRING"
+      }
+    ],
+    "enrolled_courses": [
+      {
+        "course_code": "AI210",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      },
+      {
+        "course_code": "CS201",
+        "term": "2026-FALL",
+        "status": "ACTIVE"
+      }
+    ]
+  }
+]

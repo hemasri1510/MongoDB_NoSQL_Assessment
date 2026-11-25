@@ -1,0 +1,81 @@
+[
+  {
+    "code": "CS101",
+    "title": "Programming & Data Structures",
+    "credits": 4,
+    "department": "CSE",
+    "prereqs": [],
+    "capacity": 120
+  },
+  {
+    "code": "MA102",
+    "title": "Linear Algebra & Discrete Math",
+    "credits": 4,
+    "department": "Mathematics",
+    "prereqs": [],
+    "capacity": 120
+  },
+  {
+    "code": "CS201",
+    "title": "Database Management Systems",
+    "credits": 4,
+    "department": "CSE",
+    "prereqs": [
+      "CS101"
+    ],
+    "capacity": 90
+  },
+  {
+    "code": "CS204",
+    "title": "Design & Analysis of Algorithms",
+    "credits": 4,
+    "department": "CSE",
+    "prereqs": [
+      "CS101",
+      "MA102"
+    ],
+    "capacity": 90
+  },
+  {
+    "code": "AI210",
+    "title": "Foundations of Machine Learning",
+    "credits": 4,
+    "department": "AI & ML",
+    "prereqs": [
+      "CS101",
+      "MA102"
+    ],
+    "capacity": 80
+  },
+  {
+    "code": "CS301",
+    "title": "Distributed & NoSQL Databases",
+    "credits": 4,
+    "department": "CSE",
+    "prereqs": [
+      "CS201"
+    ],
+    "capacity": 60
+  },
+  {
+    "code": "AI315",
+    "title": "Deep Learning & Neural Architectures",
+    "credits": 4,
+    "department": "AI & ML",
+    "prereqs": [
+      "AI210",
+      "CS204"
+    ],
+    "capacity": 60
+  },
+  {
+    "code": "CS402",
+    "title": "Cloud-Native Data Engineering",
+    "credits": 3,
+    "department": "CSE",
+    "prereqs": [
+      "CS301"
+    ],
+    "capacity": 50
+  }
+]
